@@ -7,9 +7,7 @@ gn.h download.h
 1.本程序使用Visual Studio 2022编写 ，使用debug x86配置 编译前请将SDL检查置为否。  
 2.将链接器的清单文件里的UAC执行级别改为requireAdministrator 即可，因为涉及更新操作需要管理员权限，这样就不用每次运行还要右击来运行。  
 3.在VC++目录一栏中，将常规下的 包含目录改为CURL文件夹下的include文件夹。将库目录改为CURL文件夹下的lib文件夹。
-
 4.在链接器一栏中将附加依赖项改为libcurl.lib。
-
 5.将C/C++一栏中的代码生成里的运行库改为MTD。
 
 
