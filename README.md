@@ -9,6 +9,7 @@ gn.h download.h
 3.在VC++目录一栏中，将常规下的 包含目录改为CURL文件夹下的include文件夹。将库目录改为CURL文件夹下的lib文件夹。
 
 4.在链接器一栏中将附加依赖项改为libcurl.lib
+
 5.将C/C++一栏中的代码生成里的运行库改为MTD。
 
 
